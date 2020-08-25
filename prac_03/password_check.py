@@ -8,11 +8,11 @@ def main():
     print("Your password must be", MIN_LENGTH, "to", MAX_LENGTH, "characters long, and contain:")
     print("1 or more uppercase characters")
     print("1 or more lowercase characters")
-    password = input(">>")
-    while not is_valid_password(password):
+    get_password = input(">>")
+    while not is_valid_password(get_password):
         print("Invalid password")
-        password = input(">>")
-    for i in range(len(password)):
+        get_password = input(">>")
+    for i in range(len(get_password)):
         print("*", end='')
     print()
 

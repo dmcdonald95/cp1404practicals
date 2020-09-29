@@ -1,7 +1,7 @@
 
 from kivy.app import App
 from kivy.lang import Builder
-from kivy.uix.button import Label
+from kivy.uix.label import Label
 from kivy.properties import StringProperty
 
 
@@ -10,7 +10,7 @@ class DynamicLabelsApp(App):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.name_string = ["Bus", "Gus", "Jus", "Tus", "Brus"]
+        self.name_string = ["Bus", "Gus", "Jus", "Tus", "Brus", "Bruz Lightyeah"]
 
     def build(self):
         self.title = "Dynamic Widgets"

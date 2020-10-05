@@ -4,7 +4,7 @@ from prac_08.unreliable_car import UnreliableCar
 
 def main():
     my_unreliable_car = UnreliableCar("The Red Rocket", 100, 10)
-    my_reliable_car = UnreliableCar("Lightning McQueef", 100, 90)
+    my_reliable_car = UnreliableCar("Lightning McCar", 100, 90)
 
     for attempt in range(1, 12):
         print("Attempting to drive {}km:".format(attempt))
